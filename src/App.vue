@@ -30,6 +30,7 @@ const activeIndex = computed(() => route.path)
                 <el-menu-item index="/base64">Base64编码/解码</el-menu-item>
                 <el-menu-item index="/timestamp">时间戳转换</el-menu-item>
                 <el-menu-item index="/url-codec">URL编码/解码</el-menu-item>
+                <el-menu-item index="/json-format">JSON格式化</el-menu-item>
               </el-sub-menu>
               <el-menu-item index="/ai-tools">AI工具导航</el-menu-item>
             </el-menu>
