@@ -19,6 +19,14 @@ const routes: RouteRecordRaw[] = [
     }
   },
   {
+    path: '/image-base64',
+    name: 'imageBase64',
+    component: () => import('../views/tools/ImageBase64.vue'),
+    meta: {
+      title: '图片Base64编码'
+    }
+  },
+  {
     path: '/timestamp',
     name: 'timestamp',
     component: () => import('../views/tools/Timestamp.vue'),
