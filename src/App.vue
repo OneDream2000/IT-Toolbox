@@ -61,6 +61,8 @@ onMounted(() => {
                 <el-menu-item index="/url-codec">URL编码/解码</el-menu-item>
                 <el-menu-item index="/json-format">JSON格式化</el-menu-item>
                 <el-menu-item index="/hash-tools">MD5/SHA加密工具</el-menu-item>
+                <el-menu-item index="/regex-tester">正则表达式测试器</el-menu-item>
+                <el-menu-item index="/qr-generator">二维码生成器</el-menu-item>
               </el-sub-menu>
               <el-menu-item index="/ai-tools">AI工具导航</el-menu-item>
             </el-menu>

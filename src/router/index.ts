@@ -58,6 +58,22 @@ const routes: RouteRecordRaw[] = [
     meta: {
       title: 'MD5/SHA加密工具'
     }
+  },
+  {
+    path: '/regex-tester',
+    name: 'regexTester',
+    component: () => import('../views/tools/RegexTester.vue'),
+    meta: {
+      title: '正则表达式测试器'
+    }
+  },
+  {
+    path: '/qr-generator',
+    name: 'qrGenerator',
+    component: () => import('../views/tools/QrGenerator.vue'),
+    meta: {
+      title: '二维码生成器'
+    }
   }]
 
 const router = createRouter({
