@@ -50,15 +50,15 @@ const routes: RouteRecordRaw[] = [
       title: 'JSON格式化'
     }
   },
+  {    path: '/ai-tools',    name: 'aiTools',    component: () => import('../views/tools/AiTools.vue'),    meta: {      title: 'AI工具导航'    }  },
   {
-    path: '/ai-tools',
-    name: 'aiTools',
-    component: () => import('../views/tools/AiTools.vue'),
+    path: '/hash-tools',
+    name: 'hashTools',
+    component: () => import('../views/tools/HashTools.vue'),
     meta: {
-      title: 'AI工具导航'
+      title: 'MD5/SHA加密工具'
     }
-  }
-]
+  }]
 
 const router = createRouter({
   history: createWebHistory(),

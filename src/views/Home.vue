@@ -72,6 +72,12 @@ const toolList = ref<Tool[]>([
     icon: Document
   },
   {
+    name: 'MD5/SHA加密工具',
+    description: '多种哈希算法加密工具',
+    path: '/hash-tools',
+    icon: Document
+  },
+  {
     name: 'AI工具导航',
     description: '优质AI工具资源导航',
     path: '/ai-tools',

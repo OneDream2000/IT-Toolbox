@@ -76,3 +76,31 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* 暗黑模式全局样式 */
+html.dark {
+  --el-bg-color: #1a1a1a;
+  --el-text-color-primary: #ffffff;
+}
+
+html.dark body {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+html.dark .el-card {
+  background-color: #2c2c2c;
+  border-color: #333;
+  color: #ffffff;
+}
+
+html.dark .el-input__inner {
+  background-color: #333;
+  color: #ffffff;
+}
+
+html.dark .el-button {
+  background-color: #333;
+  border-color: #444;
+  color: #ffffff;
+}
