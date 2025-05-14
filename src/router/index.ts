@@ -81,7 +81,7 @@ const router = createRouter({
   routes
 })
 
-router.beforeEach((to, from, next) => {
+router.beforeEach((to, _from, next) => {
   // 设置页面标题
   document.title = `IT工具箱 - ${to.meta.title || ''}` 
   next()
