@@ -6,5 +6,5 @@ import { setupBuild } from './build/index'
 export default defineConfig({
   build: setupBuild(),
   plugins: [vue()],
-  base: "./", // 设置基础路径，确保在GitHub Pages上正确加载资源
+  base: "/IT-Toolbox/", // 设置基础路径为仓库名称，确保在GitHub Pages上正确加载资源
 });
