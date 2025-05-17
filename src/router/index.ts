@@ -74,6 +74,14 @@ const routes: RouteRecordRaw[] = [
     meta: {
       title: '二维码生成器'
     }
+  },
+  {
+    path: '/case-converter',
+    name: 'caseConverter',
+    component: () => import('../views/tools/CaseConverter.vue'),
+    meta: {
+      title: '英文字母大小写转换'
+    }
   }]
 
 const router = createRouter({

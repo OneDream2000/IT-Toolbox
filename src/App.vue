@@ -63,6 +63,7 @@ onMounted(() => {
                 <el-menu-item index="/hash-tools">MD5/SHA加密工具</el-menu-item>
                 <el-menu-item index="/regex-tester">正则表达式测试器</el-menu-item>
                 <el-menu-item index="/qr-generator">二维码生成器</el-menu-item>
+                <el-menu-item index="/case-converter">英文字母大小写转换</el-menu-item>
               </el-sub-menu>
               <el-menu-item index="/ai-tools">AI工具导航</el-menu-item>
             </el-menu>

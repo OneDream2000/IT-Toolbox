@@ -100,12 +100,11 @@ import {
   Timer,
   Link,
   Connection,
-  Search,
   Picture,
   Crop,
   Key,
   Monitor,
-  Histogram,
+  Edit,
 } from "@element-plus/icons-vue";
 
 const router = useRouter();
@@ -133,6 +132,14 @@ const toolList = ref<Tool[]>([
     icon: Document,
     category: "编码转换",
     isHot: true,
+  },
+  {
+    name: "英文字母大小写转换",
+    description: "快速转换英文字母大小写格式",
+    path: "/case-converter",
+    icon: Edit,
+    category: "文本工具",
+    isNew: true,
   },
   {
     name: "图片Base64编码",
